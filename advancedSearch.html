@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Search</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="flex-container" style="justify-content: flex-start;">
+            <div class="flex-container" id="top-div">
+                <img src="icons/googlelogo_color_272x92dp.png" alt="Google" style="height: 30px; position: absolute; left: 20px; top: 20px;">
+                <a href="index.html" class="page-link">
+                    Home
+                </a>
+            </div>
+            <div class="flex-container" id="advanced-heading-div">
+                <span id="advanced-heading">Advanced Search</span>
+            </div>
+            <div class="flex-container" id="advanced-body-div">
+                <span style="margin-bottom: 10px;">Find pages with...</span>
+                <form action="https://google.com/search">
+                    <div class="flex-container" id="advanced-input-div">
+                        <label id="advanced-input-label">all these words:</label>
+                        <input id="advanced-input-textbox" type="text" name="as_q">
+                    </div>
+                    <div class="flex-container" id="advanced-input-div">
+                        <label id="advanced-input-label">this exact word or phrase:</label>
+                        <input id="advanced-input-textbox" type="text" name="as_epq">
+                    </div>
+                    <div class="flex-container" id="advanced-input-div">
+                        <label id="advanced-input-label">any of these words:</label>
+                        <input id="advanced-input-textbox" type="text" name="as_oq">
+                    </div>
+                    <div class="flex-container" id="advanced-input-div">
+                        <label id="advanced-input-label">none of these words:</label>
+                        <input id="advanced-input-textbox" type="text" name="as_eq">
+                    </div>
+                    <input type="submit" value="Advanced Search" id="advanced-search-button">
+                </form>
+            </div>
+        </div>
+    </body>
+</html>

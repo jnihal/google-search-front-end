@@ -1,0 +1,146 @@
+html, body {
+    height: 90%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%
+}
+
+#top-div {
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    margin-right: 50px;
+    margin-top: 20px;
+}
+
+#search-box {
+    border-radius: 25px;
+    background-color: transparent;
+    width: 530px;
+    height: 25px;
+    padding: 10px;
+    padding-left: 50px;
+    border: 0.5px solid lightgray;
+    font-size: large;
+}
+
+.search-button {
+    border: 1px solid whitesmoke;
+    background-color: whitesmoke;
+    height: 35px;
+    margin-top: 30px;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+}
+
+.search-button:hover {
+    border: 1px solid lightgrey;
+    cursor: pointer;
+}
+
+.page-link {
+    text-decoration: none;
+    font-size: small;
+    font-weight: 400;
+    color: black;
+    font-style: normal;
+    padding-left: 15px;
+}
+
+.page-link:hover {
+    text-decoration: underline;
+}
+
+#search-box:focus { 
+    outline: none;
+    box-shadow: 0 0 0 2px lightgrey;
+}
+
+#search-box:hover { 
+    outline: none;
+    box-shadow: 0 0 0 2px lightgrey;
+}
+
+#advanced-heading-div {
+    box-sizing: border-box;
+    border-bottom: 1px solid lightgrey;
+    align-self: start;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    height: fit-content;
+    padding-left: 50px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+#advanced-heading {
+    font-size: x-large;
+    color: rgb(207, 3, 3);
+}
+
+#advanced-body-div {
+    box-sizing: border-box;
+    width: 100%;
+    align-self: start;
+    justify-content: center;
+    align-items: flex-start;
+    height: fit-content;
+    padding-left: 50px;
+    margin-top: 40px;
+    padding-bottom: 20px;
+
+}
+
+#advanced-input-div {
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#advanced-input-label {
+    font-size: small;
+}
+
+#advanced-input-textbox {
+    position: absolute;
+    left: 250px;
+    box-sizing: border-box;
+    font-size: smaller;
+    width: 500px;
+    border: 1px solid lightgrey;
+    padding: 3px;
+}
+
+#advanced-search-button {
+    position: absolute;
+    left: 625px;
+    border: none;
+    background-color: #4d90fe;
+    height: 35px;
+    margin-top: 10px;
+    font-size: 11px;
+    font-weight: bold;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+#advanced-search-button:hover {
+    background-color: #2a7cff;
+}
